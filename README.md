@@ -142,7 +142,7 @@ A aplicação possui 4 componentes básicos:
 
 <br>
 
-[![Ricardo Granvilla](./assets/author.png)](https://github.com/rgranvilla)
+[![Ricardo Granvilla](https://avatars.githubusercontent.com/u/59630388?s=400&u=85381d97e37a276611f295ea949d50f4e8a19fa4&v=4)](https://github.com/rgranvilla)
 
 [![Twitter Badge](https://img.shields.io/badge/-@rgranvilla-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/rgranvilla)](https://twitter.com/rgranvilla)
 [![Linkedin Badge](https://img.shields.io/badge/-Ricardo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rgranvilla/)](https://www.linkedin.com/in/rgranvilla/)
