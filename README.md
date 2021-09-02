@@ -66,7 +66,7 @@ Pontos que serão avaliados:
 - [x] Escolhas das ferramentas
   - [x] Definir e justificar o uso das ferramentas
 - [ ] Desenvolvimento da aplicação
-  - [ ] Implementação do layout
+  - [x] Implementação do layout
   - [ ] Criar o controle de estado com Redux
   - [ ] Criar regras de negócio
   - [ ] Salvar as tarefas no LocalStorage
@@ -135,10 +135,10 @@ Ferramentas:
 
 A aplicação possui 4 componentes básicos:
 
-- [ ] Cabeçalho
-- [ ] Painel de controle
-- [ ] Lista
-- [ ] Cartão
+- [x] Cabeçalho
+- [x] Painel de controle
+- [x] Lista
+- [x] Cartão
 
 <br>
 
