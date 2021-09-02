@@ -44,6 +44,8 @@ export const Container = styled.div`
       flex-direction: column;
       align-items: center;
 
+      cursor: pointer;
+
       p {
         font-size: 0.75rem;
         font-weight: 400;
