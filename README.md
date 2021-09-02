@@ -142,7 +142,7 @@ A aplicação possui 4 componentes básicos:
 
 <br>
 
-### Ricardo Granvilla Oliveira
+## Ricardo Granvilla Oliveira
 
 [![Ricardo Granvilla](./public/images/author.png)](https://github.com/rgranvilla)
 
