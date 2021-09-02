@@ -3,12 +3,14 @@ import {FiPlus} from 'react-icons/fi';
 
 import {Container} from './styles';
 
+import Card from '../Card';
+
 export default function List() {
   return (
     <Container>
       <header>
         <div className="title-line">
-          <h1>To do</h1>
+          <h2>To do</h2>
 
           <div className="counter">
             <p>3</p>
@@ -20,6 +22,11 @@ export default function List() {
           </button>
         </div>
       </header>
+      <main>
+        <ul>
+          <Card />
+        </ul>
+      </main>
     </Container>
   )
 }

@@ -19,6 +19,7 @@ export default createGlobalStyle`
 
     /* Background Colors */
     --bg-button: #E7F2F1;
+    --bg-button-card: #888888;
     --bg-dashboard: #FEFEFE;
     --bg-list: #F5F9FA;
 

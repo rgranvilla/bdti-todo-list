@@ -21,7 +21,7 @@ export const Container = styled.div`
       justify-content: space-between;
       align-items: center;
 
-      h1 {
+      h2 {
         color: var(--txt-title);
         font-size: 1rem;
         font-weight: 500;
