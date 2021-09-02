@@ -5,12 +5,12 @@ export const Container = styled.div`
   height: 5rem;
 
   background: var(--primary);
-  color: var(--txt-white);
 
   display: flex;
   align-items: center;
 
   h1 {
+    color: var(--txt-white);
     padding-left: 2rem;
   }
 `;
