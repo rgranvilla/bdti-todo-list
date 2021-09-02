@@ -38,6 +38,11 @@ export default createGlobalStyle`
     background: var(--bg-dashboard);
     -webkit-font-smoothing: antialiased;
   }
+
+  button {
+    cursor: pointer;
+  }
+  
   ul {
     list-style: none;
   }
