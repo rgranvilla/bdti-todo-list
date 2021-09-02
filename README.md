@@ -142,6 +142,8 @@ A aplicação possui 4 componentes básicos:
 
 <br>
 
+### Ricardo Granvilla Oliveira
+
 [![Ricardo Granvilla](./public/images/author.png)](https://github.com/rgranvilla)
 
 [![Twitter Badge](https://img.shields.io/badge/-@rgranvilla-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/rgranvilla)](https://twitter.com/rgranvilla)
