@@ -29,13 +29,13 @@ export default createGlobalStyle`
   }
 
   html, body, #root {
+    width: 100vw;
     height: 100%;
   }
 
   body {
     font: 14px 'Poppins', sans-serif;
-    background: #ecf1f8;
-    color: #333;
+    background: var(--bg-dashboard);
     -webkit-font-smoothing: antialiased;
   }
   ul {
