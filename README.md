@@ -139,7 +139,7 @@ A aplicação possui 4 componentes básicos:
 - [x] Painel de controle
 - [x] Lista
 - [x] Cartão
-- [] Cartão Modal
+- [x] Cartão Modal
 
 <br>
 
