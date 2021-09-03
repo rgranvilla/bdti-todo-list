@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useEffect, useCallback, useRef} from 'react';
+import {useSpring, animated} from 'react-spring';
+
 import {
   FiXCircle,
   FiSave,
@@ -14,10 +16,38 @@ import {
 import {Background, Container, CloseModalButton} from './styles';
 
 export default function CardModal({ showModal, setShowModal }) {
+  const modalRef = useRef();
+
+  const animation = useSpring({
+    config: {
+      duration: 250,
+    },
+    opacity: showModal ? 1 : 0,
+    transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
+  })
+
+  const closeModal = e => {
+    if(modalRef.current === e.target) {
+      setShowModal(false);
+    }
+  }
+
+  const keyPress = useCallback(e => {
+    if(e.key === 'Escape' && showModal) {
+      setShowModal(false);
+    }
+  }, [setShowModal, showModal]);
+
+  useEffect(() => {
+    document.addEventListener('keydown', keyPress);
+    return () => document.removeEventListener('keydown', keyPress);
+  }, [keyPress]);
+
   return (
     <>
       {showModal ? (
-        <Background>
+        <Background ref={modalRef} onClick={closeModal}>
+          <animated.div style={animation}>
         <Container>
           <CloseModalButton 
             aria-label="Close modal"
@@ -93,6 +123,7 @@ export default function CardModal({ showModal, setShowModal }) {
             </div>
           </footer>
         </Container>
+        </animated.div>
         </Background>
       ) : null}
     </>
