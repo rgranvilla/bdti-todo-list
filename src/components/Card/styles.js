@@ -89,8 +89,6 @@ export const Container = styled.div`
         width: 1.25rem;
         height: 1.25rem;
 
-        transform: translateY(-2px);
-
         color: var(--txt-content);
       }
     }

@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {FiPlus} from 'react-icons/fi';
 
 import {Container} from './styles';
 
 import Card from '../Card';
+import CardModal from '../CardModal';
 
 export default function List() {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(prev => !prev);
+  }
+
   return (
     <Container>
       <header>
@@ -17,9 +24,10 @@ export default function List() {
           </div>
         </div>
         <div className="button-line">
-          <button type="button">
-            <FiPlus size={24} color="var(--txt-content)"/>
+          <button type="button" onClick={openModal}>
+            <FiPlus />
           </button>
+          <CardModal showModal={showModal} setShowModal={setShowModal} />
         </div>
       </header>
       <main>

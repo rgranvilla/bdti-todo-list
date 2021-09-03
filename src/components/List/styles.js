@@ -53,6 +53,12 @@ export const Container = styled.div`
         height: 2rem;
 
         border-radius: 5px;
+
+        svg {
+          width: 1.5rem;
+          height: 1.5rem;
+          color: var(--txt-content);
+        }
       }
     }
   }
